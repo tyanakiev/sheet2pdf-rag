@@ -12,9 +12,12 @@ theme:
 
 nav:
   - Home: index.md
+  - Architecture: architecture.md
+  - API Reference: api_reference.md
   - Examples:
     - LangChain Integration: examples/langchain.md
     - GCP Vertex AI Integration: examples/vertex_ai.md
 
 plugins:
   - search
+  - mkdocstrings
